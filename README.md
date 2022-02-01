@@ -5,6 +5,11 @@ Voor het keuze vak IoT voor Data science moet ik een IoT project beginnen.
 Het project moet iets inbregen voor de mens als in het hoofd doel. 
 Als het gelukt is moet ik er een repository over maken. 
 
+# het idee
+Het idee is om een thermostaat te maken die de tempretuur bijhoud en door een AI of algeritme. Het is de bedoeling dat het algoritme de temperatuur aan past wanneer het warmer of kouder word. Het grote verschil wordt, dat de thermostaat door middel van AI de temperatuur door het hele jaar of maan analyseerd en daar een plan voor maakt. Dit kan er voor zorgen dat het altijd een bepaalde temperatuur is en dat je ook niet zomaar overstook wanneer dat niet nodig is. 
+Dit kan er voor zorgen dat de stook kosten omlaag gaan waardoor men meer overhoud aan het einde van de maand. 
+
+
 # De begin fase
 Als eerste leerden wat data science en IoT inhoude. Hier merkte ik meteen dat ik met mijn computer
 skills nog niet ver genoeg was om zo iets te maken en daardoor ook tegen veel problemen aan liep.
