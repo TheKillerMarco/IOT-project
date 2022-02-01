@@ -91,4 +91,27 @@ en om het txt bestand te zien kan je het volgende commando gebruiken:
 Moet je alle scripts op deze manier aanmaken en gebruiken. Nartuurlijk niet, er zijn meerdere manieren voor. Echter 
 vind ik zeld dit de meest leuke manier om het te doen. Het is alleen niet altijd even makkelijk.
 
+# De laatste fase
+In deze fase is het de bedoeling dat je een connectie maakt met thingSpeak.
+ThingSpeak is een programma dat je kan gebruiken voor data science. Het kan bijvoorbeeld een grafiek maken van de tempratuur en humidity. Echter is het mij nog niet gelukt om dit werkend te maken. Dit is wel mijn doen en zal ook na het einde verder werken aan het project. Ik naar mijn mening iets gevomden wat uitdagend, leuk en dat je het resultaat meeteen ziet. 
+Het lijkt er op dat dit door de tijd heen een soort nieuwe hobbie is geworden. Maar ik moet er wel voor leren programmeren en in electronica gaan verdiepen. Zodat ik meer sensoren kan gaan gebruiken en dat ik een beetje weet hoe ik iets moet aansluiten.
 
+Dit gezegt te hebben gaan we verder.
+Om ThingSpeak te kunnen gebruiken heb je een account nodig. Deze kan je aan maken op de website.
+
+![image](https://user-images.githubusercontent.com/95296656/152038781-2c4514c9-6d1b-40ce-b8e5-e80883782517.png)
+
+ALs je een account heb gemaakt dan kom je op dit scherm terecht:
+![image](https://user-images.githubusercontent.com/95296656/152039170-536e45f2-9dec-489f-a31f-9cc2f70c2478.png)
+Maak een nieuwe Channel aan
+![image](https://user-images.githubusercontent.com/95296656/152039443-ac60a2fc-68db-4532-a594-ac3e495a2a68.png)
+Zorg er voor dat je de Channel een naam geeft en dat je Field 1 een naam geeft. Bijvoorbeeld temperatuur. ALs je dat gedaan heb 
+kan je op save Channel klikken.
+
+Als volgende wil je naar de tab van API Keys gaan deze heb je nodig voor de connectie van de Raspberry Pi naar ThingSpeak.
+![image](https://user-images.githubusercontent.com/95296656/152041423-51951806-bad9-42de-b1e1-e20a1b9bdde6.png)
+
+Nu is het de bedoeling dat we door middel van een script een connectie maken. Dit is mij helaas nog niet gelukt. Dit komt door medere problemen waar ik op dit moment nog geen oplossing heb. Zo vind de OS de Cammand
+>pip3 
+niet of wilt hij de liberry van de sensor niet goed installeren. Dit is later wel gelukt alleen het is soms een beetje buggy. 
+Het kan ook zijn dat ik perongelijk de sensor een beetje laten branden. Dit kwam doordat ik perongeluk de verkeerde resistor gebruikt had. 
